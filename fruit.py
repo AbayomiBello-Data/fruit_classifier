@@ -6,7 +6,7 @@ from pathlib import Path
 
 # Constants
 IMAGE_SIZE = 160
-MODEL_PATH = r'C:\Users\AbayomiBello\Downloads\MobileNetV2.h5' # Make sure to adjust this path to your saved model
+MODEL_PATH = MobileNetV2.h5'
 
 @st.cache(allow_output_mutation=True)
 def load_model():
