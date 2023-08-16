@@ -13,6 +13,7 @@ bleach==5.0.1
 blinker==1.5
 bokeh==2.4.3
 cachetools==5.2.0
+cargo==0.3
 certifi==2022.9.24
 cffi==1.15.1
 charset-normalizer==2.1.1
@@ -125,7 +126,7 @@ python-dateutil==2.8.2
 pytz==2023.3
 pytz-deprecation-shim==0.1.0.post0
 pyviz-comms==2.2.1
-pywin32==303; platform_system=="Windows"
+pywin32==304
 pywinpty==2.0.8
 PyYAML==6.0
 pyzmq==24.0.1
