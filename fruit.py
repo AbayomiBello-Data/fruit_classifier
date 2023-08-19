@@ -47,5 +47,5 @@ if uploaded_image is not None:
     predicted_class = np.argmax(predictions)
 
     # Display the prediction
-    class_names = ['apple', 'banana', 'orange', 'grape', 'strawberry']  # Adjust based on your classes
+    class_names = ['Apple', 'Banana', 'Grape', 'Mango', 'Strawberry']  # Adjust based on your classes
     st.write(f"The model predicts this fruit as: {class_names[predicted_class]}")
